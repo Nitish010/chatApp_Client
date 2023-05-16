@@ -1,0 +1,46 @@
+
+.search{
+    overflow-y: scroll;
+    flex: 5.5;
+}
+
+.searchWrapper{
+    padding: 20px;
+}
+.profileCard{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.profileImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.followButton {
+    border: none;
+    background-color: #1872f2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 20px;
+}

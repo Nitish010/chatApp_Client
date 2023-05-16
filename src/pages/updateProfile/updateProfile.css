@@ -1,0 +1,84 @@
+.updateContainer{
+    display: flex;
+    width: 100%;
+}
+.updateProfile {
+    flex: 9;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.updateProfileWrapper {
+    background: rgb(193, 193, 193);
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.updateProfileHeading {
+    font-size: 40px;
+    background: rgb(66, 66, 246);
+    border-radius: 10px;
+}
+
+.updateProfileImg {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.userNameInput {
+    width: 50%;
+    display: flex;
+}
+
+.inputName {
+    margin-left: 10px;
+}
+
+.updateProfileButton {
+    width: fit-content;
+    background: rgb(66, 66, 246);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.updateProfileButton:hover{
+    cursor: pointer;
+    color: black;
+    background: rgb(47, 178, 217);
+}
+
+.item {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.updateImgContainer {
+    max-height: 150px;
+    max-width: 150px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.updateImg {
+    max-height: 150px;
+    max-width: 150px;
+    /* margin: 20px auto; */
+    object-fit: cover;
+}
+
+.CancelImg{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+  }
